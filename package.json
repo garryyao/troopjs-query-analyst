@@ -1,6 +1,6 @@
 {
   "name": "troopjs-query-analyst",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CasperJS script to analysis TroopJS queries sent from a page",
   "main": "index.js",
   "bin": "./index.js",
