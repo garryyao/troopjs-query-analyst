@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "CasperJS script to analysis TroopJS queries sent from a page",
   "main": "index.js",
-  "bin": "./index.js",
+  "bin": {
+    "troopjs-query-analyst": "./index.js"
+  },
   "scripts": {
     "setup": "npm install -g casperjs"
   },
@@ -15,5 +17,14 @@
   "license": "BSD",
   "dependencies": {
     "lodash": "^2.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garryyao/troopjs-query-analyst.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garryyao/troopjs-query-analyst/issues"
+  },
+  "homepage": "https://github.com/garryyao/troopjs-query-analyst"
 }
