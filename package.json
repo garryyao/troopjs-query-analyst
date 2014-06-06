@@ -1,0 +1,19 @@
+{
+  "name": "troopjs-query-analyst",
+  "version": "0.0.0",
+  "description": "CasperJS script to analysis TroopJS queries sent from a page",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "setup": "npm install -g casperjs"
+  },
+  "keywords": [
+    "troopjs",
+    "casperjs"
+  ],
+  "author": "Garry Yao <yaojun85@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
